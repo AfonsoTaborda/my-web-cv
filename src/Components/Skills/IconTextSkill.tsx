@@ -38,12 +38,6 @@ const useStyles = makeStyles((theme: Theme) => ({
       alignContent: "center",
       marginTop: theme.spacing(4),
       color: "lightgrey",
-      '&:hover': {
-        cursor: "default",
-        transform: "scale(1.1)",
-        transition: "all 0.09s ease-in",
-        color: theme.palette.primary.main,
-      }
     },
   
     icons: {
