@@ -29,7 +29,7 @@ export const experience = [
         position: "Full-Stack Intern",
         startDate:"Sept 2018",
         endDate: "Dec 2018",
-        responsibilities: ["Development and maintenance of the company's website", "Migrated the infreastructure hosting the website from Google Cloud into Microsoft Azure", "Search Engine Optimization (SEO)", "Integration of various architecture 3D assets and videos into the website"],
+        responsibilities: ["Development and maintenance of the company's website", "Migrated the infrastructure hosting the website from Google Cloud into Microsoft Azure", "Search Engine Optimization (SEO)", "Integration of various architecture 3D assets and videos into the website"],
         location: "Horsens, Denmark",
         technologies: ["Microsoft Azure", "Google Cloud", "C# ASP.NET", "HTML", "CSS", "JavaScript"],
     },
