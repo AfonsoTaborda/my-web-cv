@@ -102,7 +102,7 @@ const GitHubProjects: React.FC<GitHubProjectsProps> = ({ username }) => {
   return (
     <Grid container justifyContent="center">
       <Typography variant="h4" align='center' className={loading ? classes.loading : classes.sectionHeading}>
-        🔬<b className={classes.sectionHeadingTitle}>{loading ? "Loading..." : `Projects by ${username}`}</b>
+      🔎<b className={classes.sectionHeadingTitle}>{loading ? "Loading..." : `Projects by ${username}`}</b>
       </Typography>
         {projects.map((project) => (
           <Grid item key={project.id} xs={12} className={classes.item}>
