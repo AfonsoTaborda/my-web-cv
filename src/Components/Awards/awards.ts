@@ -11,6 +11,6 @@ export const attainments = [
         link: "https://www.di.fct.unl.pt/topas-lx-2016/vencedores",
         date: "May 2016",
         location: "Faculdade de Ciências e Tecnologia da Universidade Nova de Lisboa, Lisbon (Portugal)",
-        description: "During this programming competition we were challenged to solve the maximum amount of the given tasks in the C programming language."
+        description: "During this programming hackathon we were challenged to solve the maximum amount of the given tasks in the C programming language."
     },
 ]
