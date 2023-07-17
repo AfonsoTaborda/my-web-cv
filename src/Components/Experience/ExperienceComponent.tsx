@@ -69,6 +69,7 @@ const useStyles = makeStyles((theme: Theme) => ({
             paddingLeft: "20%",
         },
         maxWidth: '10%',
+        paddingTop: ".15em",
         paddingRight: ".5em",
         paddingBottom: ".15em",
         verticalAlign: "middle",
