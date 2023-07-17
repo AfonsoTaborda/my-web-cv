@@ -41,12 +41,7 @@
   dependencies:
     "@babel/highlight" "^7.22.5"
 
-"@babel/compat-data@^7.22.5", "@babel/compat-data@^7.22.6":
-  version "7.22.9"
-  resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.22.9.tgz#71cdb00a1ce3a329ce4cbec3a44f9fef35669730"
-  integrity sha512-5UamI7xkUcJ3i9qVDS+KFDEK8/7oJ55/sJMB1Ge7IEapr7KfdfV/HErR+koZwOfd+SgtFKOKRhRakdg++DcJpQ==
-
-"@babel/compat-data@^7.22.9":
+"@babel/compat-data@^7.22.5", "@babel/compat-data@^7.22.6", "@babel/compat-data@^7.22.9":
   version "7.22.9"
   resolved "https://registry.yarnpkg.com/@babel/compat-data/-/compat-data-7.22.9.tgz#71cdb00a1ce3a329ce4cbec3a44f9fef35669730"
   integrity sha512-5UamI7xkUcJ3i9qVDS+KFDEK8/7oJ55/sJMB1Ge7IEapr7KfdfV/HErR+koZwOfd+SgtFKOKRhRakdg++DcJpQ==
@@ -116,22 +111,7 @@
     lru-cache "^5.1.1"
     semver "^6.3.1"
 
-"@babel/helper-create-class-features-plugin@^7.18.6", "@babel/helper-create-class-features-plugin@^7.22.5", "@babel/helper-create-class-features-plugin@^7.22.6":
-  version "7.22.9"
-  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.22.9.tgz#c36ea240bb3348f942f08b0fbe28d6d979fab236"
-  integrity sha512-Pwyi89uO4YrGKxL/eNJ8lfEH55DnRloGPOseaA8NFNL6jAUnn+KccaISiFazCj5IolPPDjGSdzQzXVzODVRqUQ==
-  dependencies:
-    "@babel/helper-annotate-as-pure" "^7.22.5"
-    "@babel/helper-environment-visitor" "^7.22.5"
-    "@babel/helper-function-name" "^7.22.5"
-    "@babel/helper-member-expression-to-functions" "^7.22.5"
-    "@babel/helper-optimise-call-expression" "^7.22.5"
-    "@babel/helper-replace-supers" "^7.22.9"
-    "@babel/helper-skip-transparent-expression-wrappers" "^7.22.5"
-    "@babel/helper-split-export-declaration" "^7.22.6"
-    semver "^6.3.1"
-
-"@babel/helper-create-class-features-plugin@^7.22.9":
+"@babel/helper-create-class-features-plugin@^7.18.6", "@babel/helper-create-class-features-plugin@^7.22.5", "@babel/helper-create-class-features-plugin@^7.22.6", "@babel/helper-create-class-features-plugin@^7.22.9":
   version "7.22.9"
   resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.22.9.tgz#c36ea240bb3348f942f08b0fbe28d6d979fab236"
   integrity sha512-Pwyi89uO4YrGKxL/eNJ8lfEH55DnRloGPOseaA8NFNL6jAUnn+KccaISiFazCj5IolPPDjGSdzQzXVzODVRqUQ==
@@ -939,16 +919,16 @@
     "@babel/helper-plugin-utils" "^7.22.5"
 
 "@babel/plugin-transform-runtime@^7.16.4":
-  version "7.22.7"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.22.7.tgz#eb9094b5fb756cc2d98d398b2c88aeefa9205de9"
-  integrity sha512-o02xM7iY7mSPI+TvaYDH0aYl+lg3+KT7qrD705JlsB/GrZSNaYO/4i+aDFKPiJ7ubq3hgv8NNLCdyB5MFxT8mg==
+  version "7.22.9"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-runtime/-/plugin-transform-runtime-7.22.9.tgz#a87b11e170cbbfb018e6a2bf91f5c6e533b9e027"
+  integrity sha512-9KjBH61AGJetCPYp/IEyLEp47SyybZb0nDRpBvmtEkm+rUIwxdlKpyNHI1TmsGkeuLclJdleQHRZ8XLBnnh8CQ==
   dependencies:
     "@babel/helper-module-imports" "^7.22.5"
     "@babel/helper-plugin-utils" "^7.22.5"
-    "@nicolo-ribaudo/semver-v6" "^6.3.3"
     babel-plugin-polyfill-corejs2 "^0.4.4"
     babel-plugin-polyfill-corejs3 "^0.8.2"
     babel-plugin-polyfill-regenerator "^0.5.1"
+    semver "^6.3.1"
 
 "@babel/plugin-transform-shorthand-properties@^7.22.5":
   version "7.22.5"
