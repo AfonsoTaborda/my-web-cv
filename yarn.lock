@@ -127,13 +127,13 @@
     semver "^6.3.1"
 
 "@babel/helper-create-regexp-features-plugin@^7.18.6", "@babel/helper-create-regexp-features-plugin@^7.22.5":
-  version "7.22.6"
-  resolved "https://registry.yarnpkg.com/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.22.6.tgz#87afd63012688ad792de430ceb3b6dc28e4e7a40"
-  integrity sha512-nBookhLKxAWo/TUCmhnaEJyLz2dekjQvv5SRpE9epWQBcpedWLKt8aZdsuT9XV5ovzR3fENLjRXVT0GsSlGGhA==
+  version "7.22.9"
+  resolved "https://registry.yarnpkg.com/@babel/helper-create-regexp-features-plugin/-/helper-create-regexp-features-plugin-7.22.9.tgz#9d8e61a8d9366fe66198f57c40565663de0825f6"
+  integrity sha512-+svjVa/tFwsNSG4NEy1h85+HQ5imbT92Q5/bgtS7P0GTQlP8WuFdqsiABmQouhiFGyV66oGxZFpeYHza1rNsKw==
   dependencies:
     "@babel/helper-annotate-as-pure" "^7.22.5"
-    "@nicolo-ribaudo/semver-v6" "^6.3.3"
     regexpu-core "^5.3.1"
+    semver "^6.3.1"
 
 "@babel/helper-define-polyfill-provider@^0.4.1":
   version "0.4.1"
