@@ -89,6 +89,8 @@ export default function IconTextSkill(props: Props) {
                       </Grid>
                   );
                 }
+
+                return null;
               })}
               </Grid>
         </>
