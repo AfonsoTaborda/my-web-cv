@@ -16,10 +16,10 @@ export const experience = [
         position: "Associate IT Engineer",
         startDate:"Feb 2021",
         endDate:"Sept 2024",
-        achievements: ["Worked on improving existing automated processes for hosting a scheduling software solution using AWS services", "Collaborated on decommissioning the previous data ingestion system, into one that uses APIs", "Developed in coordination with the end-users a monitoring solution to alert and drill-down on the scheduling application's error and warning logs using the ElasticStack technologies"],
+        achievements: ["Worked on improving existing automated processes for hosting a scheduling software solution using AWS services", "Collaborated on decommissioning the previous data ingestion system, into one that uses APIs", "Developed in coordination with the end-users a monitoring solution to alert and drill-down on the scheduling application's error and warning logs using the ElasticStack technologies", "Ingested data sources into the Data Platform using Databricks"],
         responsibilities: ["DevOps and Data Engineering to enable the scheduling and execution planning software towards Shopfloor planners", "Improve the maintainability and high availability of the Shopfloor scheduling technical infrastructure", "Keep the technical infrastructure secure and reliable"],
         location: "Billund, Denmark",
-        technologies: ["Amazon Web Services (AWS)", "PowerShell/Shell", "TypeScript", "C# .NET", "Docker", "Golang"],
+        technologies: ["Amazon Web Services (AWS)", "Databricks", "PowerShell/Shell", "Python", "TypeScript", "C# .NET", "Docker", "Golang"],
     },
     {
         company: "The LEGO Group",
