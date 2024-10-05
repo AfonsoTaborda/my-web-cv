@@ -1,0 +1,24 @@
+name: 'Publish to Github Pages'
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          cache: 'yarn'
+      
+      - name: Install Dependencies
+        run: yarn install
+
+      - name: Build and Publish
+        run: yarn deploy
