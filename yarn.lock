@@ -836,12 +836,12 @@
     "@babel/helper-plugin-utils" "^7.22.5"
 
 "@babel/plugin-transform-dotall-regex@^7.22.5", "@babel/plugin-transform-dotall-regex@^7.4.4":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.22.5.tgz#dbb4f0e45766eb544e193fb00e65a1dd3b2a4165"
-  integrity sha512-5/Yk9QxCQCl+sOIB1WelKnVRxTJDSAIxtJLL2/pqL14ZVlbH0fUQUZa/T5/UnQtBNgghR7mfB8ERBKyKPCi7Vw==
+  version "7.25.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-transform-dotall-regex/-/plugin-transform-dotall-regex-7.25.7.tgz#9d775c4a3ff1aea64045300fcd4309b4a610ef02"
+  integrity sha512-kXzXMMRzAtJdDEgQBLF4oaiT6ZCU3oWHgpARnTKDAqPkDJ+bs3NrZb310YYevR5QlRo3Kn7dzzIdHbZm1VzJdQ==
   dependencies:
-    "@babel/helper-create-regexp-features-plugin" "^7.22.5"
-    "@babel/helper-plugin-utils" "^7.22.5"
+    "@babel/helper-create-regexp-features-plugin" "^7.25.7"
+    "@babel/helper-plugin-utils" "^7.25.7"
 
 "@babel/plugin-transform-duplicate-keys@^7.22.5":
   version "7.22.5"
