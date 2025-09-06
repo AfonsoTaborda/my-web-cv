@@ -69,7 +69,7 @@ export default function AttainmentsList(props: Props) {
     return(
         <Box className={classes.container}>
           <Typography variant="h4" align='center' className={classes.sectionHeading}>
-            🏅<b className={classes.sectionHeadingText}>Awards</b>
+            🏅 <b className={classes.sectionHeadingText}>Awards</b>
           </Typography>
           {props.attainments.map((Attainment) => (
             <Grid container direction='column' key={Attainment.name} className={classes.Attainment}>

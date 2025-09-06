@@ -134,7 +134,7 @@ function ExperienceComponent(props: Props) {
     return(
              <>
                 <Typography variant="h4" align='center' className={classes.sectionHeading}>
-                    💼<b className={classes.sectionHeadingText}>Experience</b>
+                    💼 <b className={classes.sectionHeadingText}>Experience</b>
                 </Typography>
                 {props.experiences.map((experience, index) => {
                     return(

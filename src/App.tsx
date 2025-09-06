@@ -11,7 +11,7 @@ import PersonalProjectsComponent from './Components/PersonalProjects/PersonalPro
 import { experience } from './Components/Experience/experience';
 import { attainments } from './Components/Awards/awards';
 import IconTextSkill from './Components/Skills/IconTextSkill';
-import { skillset, commandLine, cloudProviders, databaseSkills, languageSkills } from './Components/Skills/skills';
+import { skillset, commandLine, cloudProviders, databaseSkills, bigDataSkills } from './Components/Skills/skills';
 
 const theme = createTheme({
   typography: {
@@ -29,13 +29,13 @@ const theme = createTheme({
 
 function App() {
   const classes = useStyles();
-  const components = [IconTextSkill, IconTextSkill, IconTextSkill, IconTextSkill];
+  const components = [IconTextSkill, IconTextSkill, IconTextSkill, IconTextSkill, IconTextSkill];
   const componentProps = [
     { name: "Programming Languages", headingTitle: "Programming Languages", iconProps: skillset },
     { name: "Database Systems", headingTitle: "Database Systems", iconProps: databaseSkills },
     { name: "Command Line", headingTitle: "Command Line", iconProps: commandLine },
     { name: "Cloud Providers", headingTitle: "Cloud Providers", iconProps: cloudProviders },
-    { name: "Languages", headingTitle: "Languages", iconProps: languageSkills },
+    { name: "Big Data", headingTitle: "Big Data", iconProps: bigDataSkills },
   ];
 
   return (
@@ -47,7 +47,7 @@ function App() {
         </Grid>
         <Grid item xs={12} className={classes.component}>
           <Typography variant="h4" align='center' className={classes.sectionHeading}>
-            👷<b className={classes.sectionHeadingText}>Software Engineering Skills</b>
+            👷 <b className={classes.sectionHeadingText}>Software Engineering Skills</b>
           </Typography>
           <SwitchableComponents componentTypes={components} componentProps={componentProps} />
         </Grid>
