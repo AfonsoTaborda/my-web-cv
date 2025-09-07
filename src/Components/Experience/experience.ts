@@ -6,11 +6,11 @@ export const experience = [
         position: "Software Engineer",
         startDate:"Sept 2024",
         achievements: [
-            "Develop a Customer Data Platform (CDP) for identifying customer journeys and buying behavior.",
-            "Enable analytical data from Social Media channel APIs (Meta, Pinterest and Snapchat) to support the Marketing Mix Modelling, Social Listening and Paid user groups.",
-            "Create ticketing process into the product team by integrating with ServiceNow.",
-            "Create Conversion APIs (CAPI) to send back customer events to Social Media platforms for better ad targeting and measurement.",
-            "Lead Agile best practices adoption in the product team."
+            "Developed a Customer Data Platform (CDP) for identifying customer journeys and buying behavior.",
+            "Enabled analytical data from Social Media channel APIs (Meta, Pinterest and Snapchat) to support the Marketing Mix Modelling, Social Listening and Paid user groups.",
+            "Created ticketing process into the product team by integrating with ServiceNow.",
+            "Created Conversion APIs (CAPI) to send back customer events to Social Media platforms for better ad targeting and measurement.",
+            "Led Agile best practices adoption in the product team."
         ],
         responsibilities: [
             "Data Engineering to enable data-driven marketing and customer experience",
@@ -27,10 +27,10 @@ export const experience = [
         startDate:"Feb 2021",
         endDate:"Sept 2024",
         achievements: [
-            "Improve existing automated processes for hosting a scheduling software solution using AWS services",
-            "Collaborate on decommissioning the previous data ingestion system, into one that uses APIs",
-            "Develop in coordination with the end-users a monitoring solution to alert and drill-down on the scheduling application's error and warning logs using the ElasticStack technologies",
-            "Ingest data sources into the Data Platform using Databricks"
+            "Improved existing automated processes for hosting a scheduling software solution using AWS services",
+            "Collaborated on decommissioning the previous data ingestion system, into one that uses APIs",
+            "Developed in coordination with the end-users a monitoring solution to alert and drill-down on the scheduling application's error and warning logs using the ElasticStack technologies",
+            "Ingested data sources into the Data Platform using Databricks"
         ],
         responsibilities: [
             "DevOps and Data Engineering to enable the scheduling and execution planning software towards Shopfloor planners",
@@ -60,10 +60,10 @@ export const experience = [
         startDate:"Sept 2018",
         endDate: "Dec 2018",
         responsibilities: [
-            "Develop and maintain the company's website",
-            "Migrate the infrastructure hosting the website from Google Cloud into Microsoft Azure",
+            "Developed and maintained the company's website",
+            "Migrated the infrastructure hosting the website from Google Cloud into Microsoft Azure",
             "Search Engine Optimization (SEO)",
-            "Integrate various architecture 3D assets and videos into the website"
+            "Integrated various architecture 3D assets and videos into the website"
         ],
         location: "Horsens, Denmark",
         technologies: ["Microsoft Azure", "Google Cloud", "C# ASP.NET", "HTML", "CSS", "JavaScript"],
