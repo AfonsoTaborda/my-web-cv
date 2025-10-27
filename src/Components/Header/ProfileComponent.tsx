@@ -104,7 +104,7 @@ export default function ProfileComponent() {
             <Grid item sm={12} lg={12} className={classes.profileRoot}>
                 <div className={classes.avatarContainer}>
                     <Avatar
-                    src='https://media.licdn.com/dms/image/C4D03AQGgvzc5N5AoPw/profile-displayphoto-shrink_800_800/0/1625938735793?e=2147483647&v=beta&t=FCK6T9RvED5HVR7zY9eWPuXVYC9RkQJzz5IJKn3MwkY'
+                    src='https://media.licdn.com/dms/image/v2/D4D03AQHWDvSmHpOIjg/profile-displayphoto-scale_400_400/B4DZk6Id6QJkAg-/0/1757616922937?e=1762992000&v=beta&t=SGKiAk16n7wrcZXtL5myuwxhZZNbV3wOgCZ42RHWQ14'
                     alt="Your Name"
                     className={classes.avatar} />
                 </div>
